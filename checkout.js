@@ -1,6 +1,6 @@
 function renderCheckoutPage() {
   const layout = generateDemoCheckoutPageLayout();
-  const contentContainer = document.getElementById("content");
+  const contentContainer = document.getElementById"content");
   contentContainer.innerHTML = layout;
   state.totalPrice = 0;
   state.appliedRebates.length = 0;
